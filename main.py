@@ -87,4 +87,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-   
+   bot.run(os.getenv("TOKEN"))
